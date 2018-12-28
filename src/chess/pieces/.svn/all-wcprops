@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/pieces
+END
+AbstractChessPiece.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/mycareerguru/!svn/ver/32/trunk/BoardMatrix/src/chess/pieces/AbstractChessPiece.java
+END
+Bishop.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/pieces/Bishop.java
+END
+Knight.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/pieces/Knight.java
+END
+Pawn.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/pieces/Pawn.java
+END
+CoOrdinate.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/pieces/CoOrdinate.java
+END
+King.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/pieces/King.java
+END
+Pawns.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/mycareerguru/!svn/ver/12/trunk/BoardMatrix/src/chess/pieces/Pawns.java
+END
+Movement.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/pieces/Movement.java
+END
+Rook.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/pieces/Rook.java
+END
+ChessPiece.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/mycareerguru/!svn/ver/12/trunk/BoardMatrix/src/chess/pieces/ChessPiece.java
+END
+ChessFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/mycareerguru/!svn/ver/26/trunk/BoardMatrix/src/chess/pieces/ChessFactory.java
+END
+Queen.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/pieces/Queen.java
+END

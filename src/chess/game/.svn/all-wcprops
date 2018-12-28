@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/game
+END
+GameMaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/mycareerguru/!svn/ver/38/trunk/BoardMatrix/src/chess/game/GameMaster.java
+END
+GameReferee.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/mycareerguru/!svn/ver/25/trunk/BoardMatrix/src/chess/game/GameReferee.java
+END
+BlackPlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/mycareerguru/!svn/ver/27/trunk/BoardMatrix/src/chess/game/BlackPlayer.java
+END
+IPlayerInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/mycareerguru/!svn/ver/26/trunk/BoardMatrix/src/chess/game/IPlayerInformation.java
+END
+WhitePlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/mycareerguru/!svn/ver/27/trunk/BoardMatrix/src/chess/game/WhitePlayer.java
+END
+Scheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/mycareerguru/!svn/ver/27/trunk/BoardMatrix/src/chess/game/Scheduler.java
+END

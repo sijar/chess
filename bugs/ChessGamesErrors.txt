@@ -1,0 +1,661 @@
+Coordinates :0 50
+javax.swing.JPanel[,0,100,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+%%%%%%%%%%%%%%%%% move command recieved :Q10-Q20
+Altered Location :0 100
+ICON :QUEEN.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[1,0]
+ DESTINATION:[2,0]
+ MOVEMENT:HORIZONTAL
+
+%%%%%%%%%%%%%%%% Source Coordinate :[1,0]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[2,0]
+
+%%%%%%%%%%%%%%%% Color :0
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :PAWNS
+
+***********COORDINATES*************
+ SOURCE X :1 SOURCE Y :0
+ DESTINATION X :2 DESTINATION Y :0
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether horizontal Iteratively Reachable.....%%%%%%%%%%%%%%%%% Comparing NULL Pieces ....
+ ******Incorrect MOVE******** 
+Coordinates :0 50
+%%%%%%%%%%%%%%%%% move command recieved :Q10-Q20
+javax.swing.JPanel[,0,100,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :0 100
+ICON :QUEEN.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[1,0]
+ DESTINATION:[2,0]
+ MOVEMENT:HORIZONTAL
+
+%%%%%%%%%%%%%%%% Source Coordinate :[1,0]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[2,0]
+
+%%%%%%%%%%%%%%%% Color :0
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :PAWNS
+
+***********COORDINATES*************
+ SOURCE X :1 SOURCE Y :0
+ DESTINATION X :2 DESTINATION Y :0
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether horizontal Iteratively Reachable.....%%%%%%%%%%%%%%%%% Comparing NULL Pieces ....
+ ******Incorrect MOVE******** 
+Coordinates :0 50
+javax.swing.JPanel[,50,100,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :50 100
+ICON :QUEEN.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[1,0]
+ DESTINATION:[2,1]
+ MOVEMENT:DIAGONAL
+
+%%%%%%%%%%%%%%%% Source Coordinate :[1,0]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[2,1]
+
+%%%%%%%%%%%%%%%%% move command recieved :Q10-Q21
+%%%%%%%%%%%%%%%% Color :0
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :PAWNS
+
+***********COORDINATES*************
+ SOURCE X :1 SOURCE Y :0
+ DESTINATION X :2 DESTINATION Y :1
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether Diagonally  Iteratively Reachable.....%%%%%%%%%%%%%%%%% Comparing NULL Pieces ....
+ ******Incorrect MOVE******** 
+Coordinates :0 50
+javax.swing.JPanel[,50,50,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :50 50
+ICON :QUEEN.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[1,0]
+ DESTINATION:[1,1]
+ MOVEMENT:VERTICAL
+
+%%%%%%%%%%%%%%%% Source Coordinate :[1,0]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[1,1]
+
+%%%%%%%%%%%%%%%% Color :0
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+%%%%%%%%%%%%%%%%% move command recieved :Q10-Q11
+java.lang.IllegalArgumentException:  Invalid move command for PAWNS movement from-to [1,0][1,1]
+        at chess.board.Board.movePiece(Board.java:182)
+        at chess.gui.ChessBoardGUI.mouseReleased(ChessBoardGUI.java:159)
+        at java.awt.Component.processMouseEvent(Component.java:5488)
+        at javax.swing.JComponent.processMouseEvent(JComponent.java:3126)
+        at java.awt.Component.processEvent(Component.java:5253)
+        at java.awt.Container.processEvent(Container.java:1966)
+        at java.awt.Component.dispatchEventImpl(Component.java:3955)
+        at java.awt.Container.dispatchEventImpl(Container.java:2024)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+        at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4212)
+        at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3892)
+        at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3822)
+        at java.awt.Container.dispatchEventImpl(Container.java:2010)
+        at java.awt.Window.dispatchEventImpl(Window.java:1778)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+ Invalid move command for PAWNS movement from-to [1,0][1,1]
+ ******Incorrect MOVE******** 
+        at java.awt.EventQueue.dispatchEvent(EventQueue.java:463)
+        at java.awt.EventDispatchThread.pumpOneEventForHierarchy(EventDispatchThread.java:242)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:163)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:157)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:149)
+        at java.awt.EventDispatchThread.run(EventDispatchThread.java:110)
+Coordinates :0 50
+javax.swing.JPanel[,0,100,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :0 100
+ICON :QUEEN.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[1,0]
+ DESTINATION:[2,0]
+ MOVEMENT:HORIZONTAL
+
+%%%%%%%%%%%%%%%% Source Coordinate :[1,0]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[2,0]
+
+%%%%%%%%%%%%%%%% Color :0
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :PAWNS
+
+***********COORDINATES*************
+ SOURCE X :1 SOURCE Y :0
+ DESTINATION X :2 DESTINATION Y :0
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether horizontal Iteratively Reachable.....%%%%%%%%%%%%%%%%% Comparing NULL Pieces ....
+ ******Incorrect MOVE******** 
+%%%%%%%%%%%%%%%%% move command recieved :Q10-Q20
+Coordinates :50 350
+javax.swing.JPanel[,50,250,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%% move command recieved :R71-R51
+ Destination can not be reached, Chess Piece getting blocked 
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :50 250
+ICON :ROOK.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[7,1]
+ DESTINATION:[5,1]
+ MOVEMENT:HORIZONTAL
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :ROOK
+Coordinate swapped.....
+
+***********COORDINATES*************
+ SOURCE X :5 SOURCE Y :1
+ DESTINATION X :7 DESTINATION Y :1
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether horizontal Iteratively Reachable..... ******Incorrect MOVE******** 
+Coordinates :0 350
+javax.swing.JPanel[,0,250,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :0 250
+ICON :ROOK.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[7,0]
+ DESTINATION:[5,0]
+ MOVEMENT:HORIZONTAL
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :ROOK
+Coordinate swapped.....
+
+***********COORDINATES*************
+ SOURCE X :5 SOURCE Y :0
+ DESTINATION X :7 DESTINATION Y :0
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether horizontal Iteratively Reachable..... ******Incorrect MOVE******** 
+%%%%%%%%%%%%%%%%% move command recieved :R70-R50
+ Destination can not be reached, Chess Piece getting blocked 
+Coordinates :0 350
+javax.swing.JPanel[,100,350,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :100 350
+ICON :ROOK.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[7,0]
+ DESTINATION:[7,2]
+ MOVEMENT:VERTICAL
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :ROOK
+
+***********COORDINATES*************
+ SOURCE X :7 SOURCE Y :0
+ DESTINATION X :7 DESTINATION Y :2
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether vertically Iteratively Reachable.....%%%%%%%%%%%%%%%%% Comparing NULL Pieces ....
+%%%%%%%%%%%%%CURRENT MOVEMENT COORDINATE%%%%%%%%%%%%%
+ SOURCE:[7,0]
+ DESTINATION:[7,2]
+ MOVEMENT:VERTICAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%% Colliding Piece:null
+
+------------------------------------- CURRENT CHESS BOARD [Y AXIS] ---------------------------------------------------> 
+
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(Q)[0,0] |  B(N)[0,1] |  W(B)[0,2] |  B(Q)[0,3] |  W(K)[0,4] |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B(P)[1,0] |  W         |  B         |  W(P)[1,3] |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W         |  B         |  W         |  B         |  W(P)[2,4] |  B         |  W(P)[2,6] |  B(P)[2,7] |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W         |  B         |  W         |  B(P)[3,4] |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W         |  B(P)[4,1] |  W         |  B         |  W(N)[4,4] |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W         |  B         |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(P)[6,0] |  B(P)[6,1] |  W         |  B(P)[6,3] |  W(P)[6,4] |  B         |  W(P)[6,6] |  B(P)[6,7] |
+%%%%%%%%%%%%%%%%% move command recieved :R70-R72
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W(R)[7,1] |  B(R)[7,2] |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+Coordinates :200 200
+javax.swing.JPanel[,150,150,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :150 150
+ICON :NIGHT.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[4,4]
+ DESTINATION:[3,3]
+ MOVEMENT:DIAGONAL
+%%%%%%%%%%%%%%%%% move command recieved :N44-N33
+java.lang.IllegalArgumentException:  Invalid move command for NIGHT movement from-to [4,4][3,3]
+        at chess.board.Board.movePiece(Board.java:182)
+        at chess.gui.ChessBoardGUI.mouseReleased(ChessBoardGUI.java:159)
+        at java.awt.Component.processMouseEvent(Component.java:5488)
+        at javax.swing.JComponent.processMouseEvent(JComponent.java:3126)
+        at java.awt.Component.processEvent(Component.java:5253)
+        at java.awt.Container.processEvent(Container.java:1966)
+        at java.awt.Component.dispatchEventImpl(Component.java:3955)
+        at java.awt.Container.dispatchEventImpl(Container.java:2024)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+        at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4212)
+        at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3892)
+        at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3822)
+        at java.awt.Container.dispatchEventImpl(Container.java:2010)
+        at java.awt.Window.dispatchEventImpl(Window.java:1778)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+ Invalid move command for NIGHT movement from-to [4,4][3,3]
+ ******Incorrect MOVE******** 
+        at java.awt.EventQueue.dispatchEvent(EventQueue.java:463)
+        at java.awt.EventDispatchThread.pumpOneEventForHierarchy(EventDispatchThread.java:242)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:163)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:157)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:149)
+        at java.awt.EventDispatchThread.run(EventDispatchThread.java:110)
+Coordinates :200 200
+javax.swing.JPanel[,150,100,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :150 100
+ICON :NIGHT.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[4,4]
+ DESTINATION:[2,3]
+ MOVEMENT:LSHAPED
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :NIGHT
+%%%%%%%%%%%%%CURRENT MOVEMENT COORDINATE%%%%%%%%%%%%%
+ SOURCE:[4,4]
+ DESTINATION:[2,3]
+ MOVEMENT:LSHAPED
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%% Colliding Piece:null
+
+------------------------------------- CURRENT CHESS BOARD [Y AXIS] ---------------------------------------------------> 
+
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(Q)[0,0] |  B(N)[0,1] |  W(B)[0,2] |  B(Q)[0,3] |  W(K)[0,4] |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B(P)[1,0] |  W         |  B         |  W(P)[1,3] |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W         |  B         |  W         |  B(N)[2,3] |  W(P)[2,4] |  B         |  W(P)[2,6] |  B(P)[2,7] |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W         |  B         |  W         |  B(P)[3,4] |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W         |  B(P)[4,1] |  W         |  B         |  W         |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W         |  B         |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(P)[6,0] |  B(P)[6,1] |  W         |  B(P)[6,3] |  W(P)[6,4] |  B         |  W(P)[6,6] |  B(P)[6,7] |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W(R)[7,1] |  B(R)[7,2] |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+%%%%%%%%%%%%%%%%% move command recieved :N44-N23
+Coordinates :150 100
+javax.swing.JPanel[,50,50,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :50 50
+ICON :NIGHT.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[2,3]
+ DESTINATION:[1,1]
+ MOVEMENT:LSHAPED
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :NIGHT
+%%%%%%%%%%%%%CURRENT MOVEMENT COORDINATE%%%%%%%%%%%%%
+ SOURCE:[2,3]
+ DESTINATION:[1,1]
+ MOVEMENT:LSHAPED
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%% Colliding Piece:null
+
+------------------------------------- CURRENT CHESS BOARD [Y AXIS] ---------------------------------------------------> 
+
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(Q)[0,0] |  B(N)[0,1] |  W(B)[0,2] |  B(Q)[0,3] |  W(K)[0,4] |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B(P)[1,0] |  W(N)[1,1] |  B         |  W(P)[1,3] |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W         |  B         |  W         |  B         |  W(P)[2,4] |  B         |  W(P)[2,6] |  B(P)[2,7] |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W         |  B         |  W         |  B(P)[3,4] |  W         |  B         |  W         |
+%%%%%%%%%%%%%%%%% move command recieved :N23-N11
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W         |  B(P)[4,1] |  W         |  B         |  W         |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W         |  B         |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(P)[6,0] |  B(P)[6,1] |  W         |  B(P)[6,3] |  W(P)[6,4] |  B         |  W(P)[6,6] |  B(P)[6,7] |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W(R)[7,1] |  B(R)[7,2] |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+Coordinates :50 50
+javax.swing.JLabel[,0,0,50x50,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=D:\Projects\BoardMatrix\image\white_QUEEN.png,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,150,0,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+Altered Location :0 0
+ICON :NIGHT.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[1,1]
+ DESTINATION:[0,0]
+ MOVEMENT:DIAGONAL
+%%%%%%%%%%%%%%%%% move command recieved :N11-N00
+java.lang.IllegalArgumentException:  Invalid move command for NIGHT movement from-to [1,1][0,0]
+        at chess.board.Board.movePiece(Board.java:182)
+        at chess.gui.ChessBoardGUI.mouseReleased(ChessBoardGUI.java:159)
+        at java.awt.Component.processMouseEvent(Component.java:5488)
+        at javax.swing.JComponent.processMouseEvent(JComponent.java:3126)
+        at java.awt.Component.processEvent(Component.java:5253)
+        at java.awt.Container.processEvent(Container.java:1966)
+        at java.awt.Component.dispatchEventImpl(Component.java:3955)
+        at java.awt.Container.dispatchEventImpl(Container.java:2024)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+        at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4212)
+        at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3892)
+        at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3822)
+        at java.awt.Container.dispatchEventImpl(Container.java:2010)
+        at java.awt.Window.dispatchEventImpl(Window.java:1778)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+ Invalid move command for NIGHT movement from-to [1,1][0,0]
+ ******Incorrect MOVE******** 
+        at java.awt.EventQueue.dispatchEvent(EventQueue.java:463)
+        at java.awt.EventDispatchThread.pumpOneEventForHierarchy(EventDispatchThread.java:242)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:163)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:157)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:149)
+        at java.awt.EventDispatchThread.run(EventDispatchThread.java:110)
+Coordinates :50 200
+javax.swing.JPanel[,50,150,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :50 150
+ICON :PAWNS.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[4,1]
+ DESTINATION:[3,1]
+ MOVEMENT:HORIZONTAL
+
+%%%%%%%%%%%%%%%% Source Coordinate :[4,1]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[3,1]
+
+%%%%%%%%%%%%%%%%% move command recieved :P41-P31
+%%%%%%%%%%%%%%%% Color :1
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :PAWNS
+Coordinate swapped.....
+
+***********COORDINATES*************
+ SOURCE X :3 SOURCE Y :1
+ DESTINATION X :4 DESTINATION Y :1
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether horizontal Iteratively Reachable..... Comparing color :11
+ Comparing type :PAWNSPAWNS
+ Comparing position :[4,1][4,1]
+ Comparing X :44
+ Comparing Y :11
+%%%%%%%%%%%%%CURRENT MOVEMENT COORDINATE%%%%%%%%%%%%%
+ SOURCE:[4,1]
+ DESTINATION:[3,1]
+ MOVEMENT:HORIZONTAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%% Colliding Piece:null
+
+------------------------------------- CURRENT CHESS BOARD [Y AXIS] ---------------------------------------------------> 
+
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(Q)[0,0] |  B(N)[0,1] |  W(B)[0,2] |  B(Q)[0,3] |  W(K)[0,4] |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B(P)[1,0] |  W(N)[1,1] |  B         |  W(P)[1,3] |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W         |  B         |  W         |  B         |  W(P)[2,4] |  B         |  W(P)[2,6] |  B(P)[2,7] |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W(P)[3,1] |  B         |  W         |  B(P)[3,4] |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W         |  B         |  W         |  B         |  W         |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W         |  B         |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(P)[6,0] |  B(P)[6,1] |  W         |  B(P)[6,3] |  W(P)[6,4] |  B         |  W(P)[6,6] |  B(P)[6,7] |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W(R)[7,1] |  B(R)[7,2] |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+Coordinates :50 150
+javax.swing.JPanel[,50,100,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :50 100
+ICON :PAWNS.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[3,1]
+ DESTINATION:[2,1]
+ MOVEMENT:HORIZONTAL
+
+%%%%%%%%%%%%%%%% Source Coordinate :[3,1]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[2,1]
+
+%%%%%%%%%%%%%%%% Color :1
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :PAWNS
+Coordinate swapped.....
+
+***********COORDINATES*************
+ SOURCE X :2 SOURCE Y :1
+ DESTINATION X :3 DESTINATION Y :1
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether horizontal Iteratively Reachable..... Comparing color :11
+ Comparing type :PAWNSPAWNS
+ Comparing position :[3,1][3,1]
+ Comparing X :33
+ Comparing Y :11
+%%%%%%%%%%%%%CURRENT MOVEMENT COORDINATE%%%%%%%%%%%%%
+ SOURCE:[3,1]
+ DESTINATION:[2,1]
+ MOVEMENT:HORIZONTAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%% Colliding Piece:null
+
+------------------------------------- CURRENT CHESS BOARD [Y AXIS] ---------------------------------------------------> 
+
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(Q)[0,0] |  B(N)[0,1] |  W(B)[0,2] |  B(Q)[0,3] |  W(K)[0,4] |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B(P)[1,0] |  W(N)[1,1] |  B         |  W(P)[1,3] |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+%%%%%%%%%%%%%%%%% move command recieved :P31-P21
+|  W         |  B(P)[2,1] |  W         |  B         |  W(P)[2,4] |  B         |  W(P)[2,6] |  B(P)[2,7] |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W         |  B         |  W         |  B(P)[3,4] |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W         |  B         |  W         |  B         |  W         |  B         |  W         |  B         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W         |  B         |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  W(P)[6,0] |  B(P)[6,1] |  W         |  B(P)[6,3] |  W(P)[6,4] |  B         |  W(P)[6,6] |  B(P)[6,7] |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|  B         |  W(R)[7,1] |  B(R)[7,2] |  W         |  B         |  W         |  B         |  W         |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+Coordinates :50 100
+javax.swing.JPanel[,100,100,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,0,400x400,invalid,layout=java.awt.GridLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=400,height=400]]
+Altered Location :100 100
+ICON :PAWNS.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[2,1]
+ DESTINATION:[2,2]
+ MOVEMENT:VERTICAL
+
+%%%%%%%%%%%%%%%% Source Coordinate :[2,1]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[2,2]
+
+%%%%%%%%%%%%%%%% Color :1
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+%%%%%%%%%%%%%%%%% move command recieved :P21-P22
+java.lang.IllegalArgumentException:  Invalid move command for PAWNS movement from-to [2,1][2,2]
+        at chess.board.Board.movePiece(Board.java:182)
+        at chess.gui.ChessBoardGUI.mouseReleased(ChessBoardGUI.java:159)
+        at java.awt.Component.processMouseEvent(Component.java:5488)
+        at javax.swing.JComponent.processMouseEvent(JComponent.java:3126)
+        at java.awt.Component.processEvent(Component.java:5253)
+        at java.awt.Container.processEvent(Container.java:1966)
+        at java.awt.Component.dispatchEventImpl(Component.java:3955)
+        at java.awt.Container.dispatchEventImpl(Container.java:2024)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+        at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4212)
+        at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3892)
+        at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3822)
+        at java.awt.Container.dispatchEventImpl(Container.java:2010)
+        at java.awt.Window.dispatchEventImpl(Window.java:1778)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+ Invalid move command for PAWNS movement from-to [2,1][2,2]
+ ******Incorrect MOVE******** 
+        at java.awt.EventQueue.dispatchEvent(EventQueue.java:463)
+        at java.awt.EventDispatchThread.pumpOneEventForHierarchy(EventDispatchThread.java:242)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:163)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:157)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:149)
+        at java.awt.EventDispatchThread.run(EventDispatchThread.java:110)
+Coordinates :50 100
+javax.swing.JLabel[,0,0,50x50,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=D:\Projects\BoardMatrix\image\white_NIGHT.png,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,50,50,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+Altered Location :50 50
+ICON :PAWNS.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[2,1]
+ DESTINATION:[1,1]
+ MOVEMENT:HORIZONTAL
+
+%%%%%%%%%%%%%%%% Source Coordinate :[2,1]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[1,1]
+%%%%%%%%%%%%%%%%% move command recieved :P21-P11
+
+%%%%%%%%%%%%%%%% Color :1
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+
+ %%%%%%%%%%%%%%%%% PIECE NAME :PAWNS
+Coordinate swapped.....
+
+***********COORDINATES*************
+ SOURCE X :1 SOURCE Y :1
+ DESTINATION X :2 DESTINATION Y :1
+***********************************
+%%%%%%%%%%%%%%%%% Checking Whether horizontal Iteratively Reachable..... Comparing color :11
+ Comparing type :PAWNSPAWNS
+ Comparing position :[2,1][2,1]
+ Comparing X :22
+ Comparing Y :11
+%%%%%%%%%%%%%CURRENT MOVEMENT COORDINATE%%%%%%%%%%%%%
+ SOURCE:[2,1]
+ DESTINATION:[1,1]
+ MOVEMENT:HORIZONTAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%%%%%%%%%%% Colliding Piece:(N)[1,1]
+java.lang.IllegalArgumentException:  movement is not allowed for Pawn at
+ SOURCE:[2,1]
+ DESTINATION:[1,1]
+ MOVEMENT:HORIZONTAL
+        at chess.board.Board.capturePiece(Board.java:242)
+        at chess.board.Board.movePiece(Board.java:206)
+        at chess.gui.ChessBoardGUI.mouseReleased(ChessBoardGUI.java:159)
+        at java.awt.Component.processMouseEvent(Component.java:5488)
+        at javax.swing.JComponent.processMouseEvent(JComponent.java:3126)
+        at java.awt.Component.processEvent(Component.java:5253)
+        at java.awt.Container.processEvent(Container.java:1966)
+        at java.awt.Component.dispatchEventImpl(Component.java:3955)
+        at java.awt.Container.dispatchEventImpl(Container.java:2024)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+        at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4212)
+        at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3892)
+        at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3822)
+        at java.awt.Container.dispatchEventImpl(Container.java:2010)
+        at java.awt.Window.dispatchEventImpl(Window.java:1778)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+ movement is not allowed for Pawn at
+ SOURCE:[2,1]
+ DESTINATION:[1,1]
+ MOVEMENT:HORIZONTAL
+ ******Incorrect MOVE******** 
+        at java.awt.EventQueue.dispatchEvent(EventQueue.java:463)
+        at java.awt.EventDispatchThread.pumpOneEventForHierarchy(EventDispatchThread.java:242)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:163)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:157)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:149)
+        at java.awt.EventDispatchThread.run(EventDispatchThread.java:110)
+Coordinates :50 100
+javax.swing.JLabel[,0,0,50x50,alignmentX=0.0,alignmentY=0.0,border=,flags=8388608,maximumSize=,minimumSize=,preferredSize=,defaultIcon=D:\Projects\BoardMatrix\image\black_QUEEN.png,disabledIcon=,horizontalAlignment=CENTER,horizontalTextPosition=TRAILING,iconTextGap=4,labelFor=,text=,verticalAlignment=CENTER,verticalTextPosition=CENTER]
+%%%%%%%%%%%%%%%%%%%%% Container Parent Information :javax.swing.JPanel[,0,50,50x50,layout=java.awt.BorderLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+Altered Location :0 0
+ICON :PAWNS.png
+%%%%%%%%%%%%%%%%% move command format is correct ...
+%%%%%%%%%%%%%%%%% Movement Information :
+ SOURCE:[2,1]
+ DESTINATION:[0,0]
+ MOVEMENT:LSHAPED
+
+%%%%%%%%%%%%%%%% Source Coordinate :[2,1]
+
+%%%%%%%%%%%%%%%% Destination Coordinate :[0,0]
+
+%%%%%%%%%%%%%%%% Color :1
+
+%%%%%%%%%%%%%%%% Type :PAWNS
+%%%%%%%%%%%%%%%%% move command recieved :P21-P00
+java.lang.IllegalArgumentException:  Invalid move command for PAWNS movement from-to [2,1][0,0]
+        at chess.board.Board.movePiece(Board.java:182)
+        at chess.gui.ChessBoardGUI.mouseReleased(ChessBoardGUI.java:159)
+        at java.awt.Component.processMouseEvent(Component.java:5488)
+        at javax.swing.JComponent.processMouseEvent(JComponent.java:3126)
+        at java.awt.Component.processEvent(Component.java:5253)
+        at java.awt.Container.processEvent(Container.java:1966)
+        at java.awt.Component.dispatchEventImpl(Component.java:3955)
+        at java.awt.Container.dispatchEventImpl(Container.java:2024)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+        at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4212)
+        at java.awt.LightweightDispatcher.processMouseEvent(Container.java:3892)
+        at java.awt.LightweightDispatcher.dispatchEvent(Container.java:3822)
+        at java.awt.Container.dispatchEventImpl(Container.java:2010)
+        at java.awt.Window.dispatchEventImpl(Window.java:1778)
+        at java.awt.Component.dispatchEvent(Component.java:3803)
+        at java.awt.EventQueue.dispatchEvent(EventQueue.java:463)
+        at java.awt.EventDispatchThread.pumpOneEventForHierarchy(EventDispatchThread.java:242)
+        at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:163)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:157)
+        at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:149)
+        at java.awt.EventDispatchThread.run(EventDispatchThread.java:110)
+ Invalid move command for PAWNS movement from-to [2,1][0,0]
+ ******Incorrect MOVE******** 

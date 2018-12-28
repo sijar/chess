@@ -1,0 +1,14 @@
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Feature: Checked Move for King
+Problem: While Iteratively checking the reach of each opponent's piece to the King's next position,
+         The Chess-Engine API check the Currents Position of the King & not the Next
+
+---------------------------------------------------------------------------------------------------------------------
+
+Proposed Solution:- (i)  Clone the ChessSquare Board with the King's Position moved to next position and
+                         perform the Iteratively reach algorithm on this ChessSquare.
+                    (ii) Correct the API to behave in such a way that the FROM POSITION isn't consider as
+                         the TO POSITION is given more importance.
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
