@@ -1,4 +1,17 @@
 /*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface BlackPlayer is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
+ */
+
+/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -19,7 +32,6 @@ import java.util.List;
 public class BlackPlayer implements IPlayerInformation {
 
     private char gameResult = 'L';  //Lost,Won,Tie
-    private int score;
     private Clock timeTaken;
     private boolean turnOn;
     private static BlackPlayer singletonInstance = new BlackPlayer();
@@ -28,7 +40,7 @@ public class BlackPlayer implements IPlayerInformation {
      *
      */
     private BlackPlayer() {
-        score = 0;
+        int score = 0;
         timeTaken = new Clock();
         turnOn = false;
     }

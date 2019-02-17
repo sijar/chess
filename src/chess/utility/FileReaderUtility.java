@@ -1,3 +1,16 @@
+/*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface FileReaderUtility is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
+ */
+
 package chess.utility;
 
 import chess.constants.IConstants;
@@ -15,11 +28,6 @@ import java.util.logging.Logger;
  */
 public class FileReaderUtility {
 
-    private static File file;
-    private static StringBuilder fileContent;
-    private static BufferedReader fileReader;
-    private static String fileLine;
-
 
     /**
      * Default Constructor
@@ -36,17 +44,18 @@ public class FileReaderUtility {
      * @return {@code File} content as {@code String}
      */
     public static String readEntireFileContent(String path) {
-        fileContent = new StringBuilder();
+        StringBuilder fileContent = new StringBuilder();
         //System.out.println("Path :" + path);
         try {
-            file = new File(path);
+            File file = new File(path);
             //System.out.println("File :" + file);
             //System.out.println("File Absolute Path:" + file.getAbsolutePath());
             //System.out.println("File Canonical Path:" + file.getCanonicalPath());
             //System.out.println("File Path:" + file.getPath());
             if (file.isFile()) {
                 //System.out.println("File Size:" + file.length());
-                fileReader = new BufferedReader(new FileReader(file));
+                BufferedReader fileReader = new BufferedReader(new FileReader(file));
+                String fileLine;
                 while ((fileLine = fileReader.readLine()) != null) {
                     fileContent.append(fileLine);
                 }

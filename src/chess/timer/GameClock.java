@@ -1,4 +1,17 @@
 /*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface GameClock is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
+ */
+
+/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -15,7 +28,6 @@ import java.util.Calendar;
 public class GameClock {
 
     private Clock startTime;
-    private Clock currentTime;
     private static GameClock singleInstance = new GameClock();
 
     /**
@@ -44,7 +56,7 @@ public class GameClock {
      */
     public Clock getElapsedTime(){
         Calendar calendar = Calendar.getInstance();
-        currentTime = new Clock();
+        Clock currentTime = new Clock();
         currentTime.setHour(calendar.get(Calendar.HOUR));
         currentTime.setMin(calendar.get(Calendar.MINUTE));
         currentTime.setSec(calendar.get(Calendar.SECOND));

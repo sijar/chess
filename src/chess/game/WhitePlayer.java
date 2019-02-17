@@ -1,4 +1,17 @@
 /*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface WhitePlayer is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
+ */
+
+/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -21,7 +34,6 @@ public class WhitePlayer implements IPlayerInformation{
 
 
     private char gameResult = 'L';  //Lost,Won,Tie
-    private int score;
     private Clock timeTaken;
     private boolean turnOn;
     private static WhitePlayer singletonInstance = new WhitePlayer();
@@ -30,7 +42,7 @@ public class WhitePlayer implements IPlayerInformation{
      * 
      */
     private WhitePlayer() {
-        score = 0;
+        int score = 0;
         timeTaken = new Clock();
         turnOn = false;
     }

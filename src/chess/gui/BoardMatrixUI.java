@@ -1,4 +1,17 @@
 /*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface BoardMatrixUI is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
+ */
+
+/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -8,24 +21,12 @@ import chess.board.Board;
 import chess.board.ChessSquare;
 import chess.constants.IConstants;
 import chess.game.GameMaster;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Container;
-import java.awt.Dimension;
-import java.awt.GridLayout;
-import java.awt.Point;
-import java.awt.Rectangle;
+
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JLayeredPane;
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
 
 /**
  *
@@ -37,21 +38,16 @@ public class BoardMatrixUI extends JFrame implements MouseListener, MouseMotionL
     public static final long serialVersionUID = -21323344;
     private static final int BOARD_UI_SIZE = 400;
     static final int PER_SQUARE_SIZE = BOARD_UI_SIZE / 8; //total size/no_of_square
-    ///// Fields /////
-    private Dimension boardSize = new Dimension(BOARD_UI_SIZE, BOARD_UI_SIZE);
     private JLayeredPane layeredPane;
     private JPanel jCBoard;
-    private JPanel box;
     private JTextArea playersInformation = new JTextArea("DashBoard"); //component to display Player Information
     //Using Chess Engine API
     private Board board = Board.getInstance();
-    private ChessSquare[][] squares;
     private JLabel chessPiece;
     private int xAdjustment;
     private int yAdjustment;
     private Container lastParent;
     private Icon chessPieceIcon;
-    private JPanel playerDashBoard;
     // Position of Piece in UI
     private int prevX = -1, prevY = -1;
     // Game Master
@@ -66,13 +62,15 @@ public class BoardMatrixUI extends JFrame implements MouseListener, MouseMotionL
         layeredPane = new JLayeredPane();
         getContentPane().add(layeredPane);
         //set size of the LayeredPane
+        ///// Fields /////
+        Dimension boardSize = new Dimension(BOARD_UI_SIZE, BOARD_UI_SIZE);
         layeredPane.setPreferredSize(new Dimension((boardSize.width * 2), boardSize.height));
         //Register Listener
         layeredPane.addMouseListener(this);
         layeredPane.addMouseMotionListener(this);
         //initialize JPanels
         jCBoard = new JPanel();
-        playerDashBoard = new JPanel();
+        JPanel playerDashBoard = new JPanel();
         //Add a chess jCBoard to the Layered Pane
         layeredPane.add(jCBoard, new Integer(0));
         layeredPane.add(playerDashBoard, new Integer(10));
@@ -111,10 +109,10 @@ public class BoardMatrixUI extends JFrame implements MouseListener, MouseMotionL
             //clean the container
             jCBoard.removeAll();
             //fill the piece
-            squares = board.getUnmodifiableChessSquares(); //Obtain an Unmodified Square
+            ChessSquare[][] squares = board.getUnmodifiableChessSquares(); //Obtain an Unmodified Square
             for (ChessSquare[] chessSquares : squares) {
                 for (ChessSquare square : chessSquares) {
-                    box = new JPanel(new BorderLayout());
+                    JPanel box = new JPanel(new BorderLayout());
                     Color color = Color.white;
                     if (square.getColor() == ChessSquare.BoardColor.BLACK.ordinal()) {
                         color = Color.black;
@@ -286,14 +284,12 @@ public class BoardMatrixUI extends JFrame implements MouseListener, MouseMotionL
             } else {
                 paintBoardUI();
             }
-            /** <!-- DO NOT DELETE THIS LINE --> **/
             jCBoard.revalidate();
             return;
         } catch (Exception excp) {
             //update the information
             playersInformation.setForeground(Color.yellow);
             playersInformation.setText(excp.getMessage() + "\n" + gameMaster.getPlayersInformation());
-            /** <!-- DO NOT DELETE THIS LINE --> **/
             jCBoard.revalidate();
             return;
         }

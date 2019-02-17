@@ -1,4 +1,17 @@
 /*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface Clock is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
+ */
+
+/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -77,9 +90,6 @@ public class Clock {
     static Clock getTimeDifference(Clock currentTime, Clock startTime) {
         Clock result = new Clock();
         //TODO
-        /** <!- BUG#1 fix the Negative difference in Time
-         *      BUG#1 fix the time taken for inactive player
-         *  --> */
         result.setHour(currentTime.getHour() - startTime.getHour());
         result.setMin(currentTime.getMin() - startTime.getMin());
         result.setSec(currentTime.getSec() - startTime.getSec());

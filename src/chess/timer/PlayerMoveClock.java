@@ -1,4 +1,17 @@
 /*
+ * Developed by Sijar Ahmed on 18/2/19 12:53 AM
+ * Last modified 6/2/19 11:22 PM.
+ * Sijar Ahmed (sijar.ahmed@gmail.com)
+ * Copyright (c) 2019. All rights reserved.
+ *
+ *
+ * The Class / Interface PlayerMoveClock is responsible for...
+ * @author sijarahmed
+ * 18/2/19 12:53 AM
+ *
+ */
+
+/*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -14,7 +27,6 @@ import java.util.Calendar;
 public class PlayerMoveClock {
     
     private Clock startTime;
-    private Clock elapsedTime;
     private static PlayerMoveClock singleInstance = new PlayerMoveClock();
 
     /**
@@ -48,7 +60,7 @@ public class PlayerMoveClock {
      */
     public Clock recordClock(){
         Calendar calendar = Calendar.getInstance();
-        elapsedTime = new Clock();
+        Clock elapsedTime = new Clock();
         int hour = calendar.get(Calendar.HOUR);
         int min = calendar.get(Calendar.MINUTE);
         int sec = calendar.get(Calendar.SECOND);
